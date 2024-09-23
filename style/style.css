@@ -1,0 +1,35 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+table.table {
+    border: 1px solid #dee2e6;
+}
+
+table.table th,
+table.table td {
+    border: 1px solid #dee2e6;
+    padding: 8px;
+}
+
+table.table th {
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+table.table td {
+    vertical-align: middle;
+}
+
+table.table td:empty:after {
+    content: "\00a0"; /* HTML entity of &nbsp; */
+}
+
+img {
+    max-width: 200px;
+    max-height: 200px;
+}
